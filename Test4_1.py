@@ -10,6 +10,7 @@ def FindPosition(arr, number):
         else:
             last = middle - 1
     return -1
-arr = sorted([5, 8, 9, 1, 23, 5, 7, 3, 0, 15])
-number = 2
+arr = sorted([5, 6, 9, 1, 23, 5, 11, 4, 0, 16])
+#number = 2
+number = 9
 print(FindPosition(arr, number))
